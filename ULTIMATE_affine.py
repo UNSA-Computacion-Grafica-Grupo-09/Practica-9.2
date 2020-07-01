@@ -32,7 +32,7 @@ def AffineMejorado(M,img,hei,wei):
             if(x<img_out.shape[0] and x>=0):
                 if(y<img_out.shape[1] and y>=0):
                     
-                    img_out[i][j]=img[x][y]#colocaos en su pixel correspondiente
+                    img_out[i][j]=img[x][y]#colocamos en su pixel correspondiente
 
                     
     return img_out
