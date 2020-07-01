@@ -52,7 +52,7 @@ def rotar_imagen(image):
             return image_res
 
 
-    
+    #Usaremos esta mejora para tener un resultado sin puntos negros
     def AffineMejorado(img,M):
         X=[0,0]
         h,w,c=img.shape
